@@ -1,0 +1,484 @@
+/* ------------------GENERAL------------------ */
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #454545;
+}
+.container-fluid {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-black {
+  color: #404040;
+}
+#qotd .section-title, 
+#emojipull .section-title, 
+#packs .section-title, 
+#submission .section-title {
+  padding: 0 30rem 8rem;
+}
+.title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 5.3rem;
+  font-weight: 700;
+  line-height: 1;
+  word-spacing: 0.6rem;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  padding-bottom: 1rem;
+}
+.description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.6rem;
+  line-height: 1.3;
+  font-weight: 400;
+}
+.img-phone {
+  -webkit-filter: drop-shadow(4px 5px 11px #333);
+  filter: drop-shadow(4px 5px 11px #333);
+}
+
+/* -----GENERAL: SMALLER DEVICES----- */
+@media (max-width: 1200px) {
+  #qotd .section-title, 
+  #emojipull .section-title, 
+  #packs .section-title, 
+  #submission .section-title {
+    padding: 0 20rem 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #qotd .section-title, 
+  #emojipull .section-title, 
+  #packs .section-title, 
+  #submission .section-title {
+    padding: 0 15rem 3rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .description {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 1.8rem;
+  }
+  #qotd .section-title, 
+  #emojipull .section-title, 
+  #packs .section-title, 
+  #submission .section-title {
+    padding: 0 0rem 3rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .description {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+/* ------------------INTRO------------------ */
+#social {
+  text-align: right;
+  padding-top: 20px;
+}
+#social a {
+  padding-left: 10px;
+}
+#intro {
+  background-image: url(../images/bg-shapes-purple-shrug.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title {
+  background-image: url(../images/bg-logo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 450px;
+  max-height: 450px;
+}
+#title h1 {
+  color: #fff;
+  font-family: 'Rubik';
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 0.9;
+  text-transform: uppercase;
+  padding-top: 18rem;
+  padding-bottom: 2px;
+}
+#definition {
+  color: #CABEF7;
+  padding-bottom: 30px;
+}
+#definition h6 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#definition p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+video {
+  width: 100%;
+  height: auto;
+  border: 8px solid #ffffff;
+}
+img.download-apple, 
+img.download-google {
+  width: 40%;
+}
+img.download-mq {
+  width: 15%;
+}
+img.download-apple,
+img.download-mq {
+  padding-right: 15px;
+}
+
+
+/* -----INTRO: SMALLER DEVICES----- */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #intro {
+    background-position: bottom right -70px;
+  }
+  #definition {
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+}
+@media (max-width: 768px) {
+  #title {
+    background-size: 100%;
+  }
+  #title h1 {
+    font-size: 8rem;
+    padding-top: 13rem;
+  }
+  .video {
+    padding-bottom: 5rem;
+  }
+  #download {
+    padding-top: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  #intro {
+    background-position: bottom right -70px;
+  }
+  #title {
+    background-size: 100%;
+    height: 220px;
+  }
+  #title h1 {
+    font-size: 3rem;
+    padding-top: 24%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+  }
+  #definition h6 {
+    font-size: 22px;
+  }
+  #definition p {
+    font-size: 17px;
+  }
+  img.download-apple,
+  img.download-mq {
+    padding-right: 3px;
+  }
+}
+
+
+
+
+
+
+/* ------------------BULLET POINTS------------------ */
+#bullet-points {
+  background-image: url("../images/bg-texture-gray.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15rem;
+  margin-top: 0;
+}
+#bullet-points img {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+#bullet-points .row .col-md-4 {
+  padding-top: 12rem;
+}
+
+/* -----BULLET POINTS: SMALLER DEVICES----- */
+@media (max-width: 768px) {
+  #bullet-points {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+  #bullet-points img {
+    padding-top: 1rem;
+  }
+  #bullet-points .row .col-md-4 {
+    padding-top: 3rem;
+  }
+}
+
+
+
+
+
+/* ------------------QOTD------------------ */
+#qotd {
+  background-image: url(../images/bg-shapes-green.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/* -----QOTD: SMALLER DEVICES----- */
+@media (max-width: 768px) {
+  #qotd {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  #qotd img {
+    margin-bottom: 3rem;
+  }
+}
+
+
+
+
+
+/* ------------------WAYS TO PLAY------------------ */
+#waystoplay {
+  background-image: url(../images/bg-waystoplay-wide.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+}
+#waystoplay-title {
+  display: none;
+}
+#waystoplay .description {
+  padding: 0 6rem;
+}
+#waystoplay .img-phone {
+  padding: 20px 0;
+}
+.img-waystoplay {
+  margin-top: 75%;
+}
+
+/* -----WAYS TO PLAY: SMALLER DEVICES----- */
+@media (max-width: 992px) {
+  #waystoplay .description {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  #waystoplay {
+    background-image: url(../images/bg-waystoplay-tall.jpg);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #waystoplay .section-title img {
+    padding: 6px 0;
+  }
+  #waystoplay-title img {
+    padding-bottom: 10px;
+  }
+  #waystoplay .img-phone {
+    padding: 20px 0;
+  }
+  .img-waystoplay {
+    display: none;
+  }
+  #waystoplay-title {
+    display: block;
+  }
+  #waystoplay .description {
+    padding: 0;
+  }
+  #section-partymode {
+    padding-top: 10rem;
+  }
+}
+
+
+
+
+
+/* ------------------EMOJI PULL------------------ */
+#emojipull {
+  background-image: url(../images/bg-emojipull-wide.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+}
+#emojipull .title {
+  text-shadow: none;
+}
+#emojipull .img-phone-mobile {
+  display: none;
+}
+
+/* -----EMOJI PULL: SMALLER DEVICES----- */
+@media (max-width: 992px) {
+  #emojipull {
+    background-position: top left -35px;
+  }
+}
+@media (max-width: 767px) {
+  #emojipull {
+    background-image: url(../images/bg-emojipull-tall.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 20%;
+  }
+  #emojipull .img-phone {
+    display: none;
+  }
+  #emojipull .img-phone-mobile {
+    display: block;
+  }
+}
+
+
+
+
+
+/* ------------------PACKS------------------ */
+#packs {
+  background-color: #1aadd1;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+#packs img {
+  width: 350px;
+  margin-bottom: 30px;
+}
+/* -----PACKS: SMALLER DEVICES----- */
+@media (max-width: 767px) {
+  #packs {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+
+
+
+
+/* ------------------SUBMISSION------------------ */
+#submission {
+  background-image: url("../images/bg-shapes-gray.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+#submission form {
+  margin-top: 3rem;
+  margin-left: 40px;
+}
+.form-control-lg {
+  height: 55px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 1rem;
+}
+.form-group {
+  padding: 0 10px 0 0;
+}
+textarea.form-control {
+  height: 275px;
+}
+.btn-moralquandary {
+  float: right;
+  color: #fff;
+  background-color: #6c4bd0;
+  border: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: Rubik;
+  font-weight: 500;
+  padding: 10px 50px;
+  border-radius: 8px;
+  box-shadow: 0px 6px #4f3799;
+}
+.btn-moralquandary:hover {
+  color: #fff;
+  background-color: #4f3799;
+  box-shadow: 0px 6px #4f3799;
+}
+
+/* SUBMISSION: SMALLER DEVICES */
+@media (max-width: 768px) {
+  #submission {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  #submission form {
+    margin-left: 0px;
+  }
+  .form-group {
+      padding: 0;
+  }  
+  .btn-moralquandary {
+    float: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 6px #4f3799;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
